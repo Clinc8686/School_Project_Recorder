@@ -1,0 +1,92 @@
+body {
+    background-size: 100% !important;
+    font-family:'Verdana';
+}  
+/* Mittleres texfeld */
+.text {
+    margin: auto;
+    position: relative;
+    top: 40px;   
+    background-color: #55aaaa;
+    width: 700px;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+/* Überschrift */
+#Title {
+font-size: 30px;
+font-family:'Arial';
+color: white;
+background-color: /*#77ffff */;
+height: 8%;
+border-radius: 10px;
+}
+/* Navigationsbar */
+#nav {
+    background-color: #333;
+    width: 935px;
+    margin: auto;
+    list-style:none;
+    position: relative;
+    overflow: hidden;
+      border-radius: 25px;
+}
+#nav li {
+    float:left;
+}
+#nav a {
+    color: #ffffff;
+    display:block;
+    text-align:center;
+    width:150px; /* fixed width */
+    text-decoration:none; 
+    padding: 14px;
+  font-size: 17px;
+}
+#nav :hover {
+    background-color: #ddd;
+    color: black; 
+}
+/* Formular */
+#form{
+   border: 1px solid #AAA;
+   color: #555;
+   margin: 20px;
+   overflow: hidden;
+   padding: 5px 10px;
+   text-overflow: ellipsis;
+   width: 200px;
+}
+/* Green Button */
+.GButton {
+  background-color: #88e732;
+  border-radius: 0.6em;
+  color: white;
+  font-size: 1rem;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+/* Red Button */
+.RButton {
+  background-color: red;
+  border-radius: 0.6em;
+  color: white;
+  font-size: 1rem;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+/* Normal Bbutton */
+.Button {
+  background-color: grey;
+  border-radius: 0.6em;
+  color: white;
+  font-size: 1rem;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
